@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.menu {
+  flex-grow: 1;
+  margin: 20px;
+}
+
+.color {
+  flex-grow: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.select {
+  flex-basis: 100%;
+  flex-grow: 1;
+  text-align: center;
+  margin: 20px;
+}
+.colors {
+  flex-basis: 1;
+  display: flex;
+}
+
+.colorwrapper {
+  margin: 5px;
+}
+
+.colorbox {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 5px;
+}

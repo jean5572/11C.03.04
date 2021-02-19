@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>11c.03.04</title>
+  </head>
+  <body>
+    <main>
+      <!-- MENU  -->
+      <div class="menu">
+        <!-- <select name="harmony" id="harmony-selection">
+          <option value="analogous">Analogous</option>
+          <option value="monochromatic">Monochromatic</option>
+          <option value="triad">Triad</option>
+          <option value="complementary">Complementary</option>
+          <option value="compound">Compound</option>
+          <option value="shades">Shades</option>
+        </select> -->
+
+        <!-- <div class="check-harmony">
+          <div class="harmonywrapper">
+            <input type="radio" value="analogous" name="harmony" checked />
+            <label for="analogous">Analogous</label>
+          </div>
+
+          <div class="harmonywrapper">
+            <input type="radio" value="monochromatic" name="harmony" />
+            <label for="monochromatic">Monochromatic</label>
+          </div>
+
+          <div class="harmonywrapper">
+            <input type="radio" value="triad" name="harmony" />
+            <label for="triad">Triad</label>
+          </div>
+
+          <div class="harmonywrapper">
+            <input type="radio" value="complementary" name="harmony" />
+            <label for="complementary">Complementary</label>
+          </div>
+
+          <div class="harmonywrapper">
+            <input type="radio" value="compound" name="harmony" />
+            <label for="compound">Compound</label>
+          </div>
+
+          <div class="harmonywrapper">
+            <input type="radio" value="Shades" name="harmony" />
+            <label for="Shades">Shades</label>
+          </div>
+        </div> -->
+      </div>
+
+      <!-- COLORS * 5 -->
+      <section class="color">
+        <div class="select">
+          <select name="harmony" id="harmony-selection">
+            <option value="analogous">Analogous</option>
+            <option value="monochromatic">Monochromatic</option>
+            <option value="triad">Triad</option>
+            <option value="complementary">Complementary</option>
+            <option value="compound">Compound</option>
+            <option value="shades">Shades</option>
+          </select>
+          <label for="select-color">Select Color</label>
+          <input class="colorpicker" id="js-colorpicker" type="color" value="#e78888" />
+        </div>
+
+        <div class="colors">
+          <div class="colorwrapper" id="color_a">
+            <div class="colorbox" id="colorbox"></div>
+            <div class="colortext">
+              <p class="hex">hex:<span class="js-color-hex"></span></p>
+              <p class="rgb">rgb:<span class="js-color-rgb"></span></p>
+              <p class="hsl">hsl:<span class="js-color-hsl"></span></p>
+            </div>
+          </div>
+
+          <div class="colorwrapper" id="color_b">
+            <div class="colorbox" id="colorbox"></div>
+            <div class="colortext">
+              <p class="hex">hex:<span class="js-color-hex"></span></p>
+              <p class="rgb">rgb:<span class="js-color-rgb"></span></p>
+              <p class="hsl">hsl:<span class="js-color-hsl"></span></p>
+            </div>
+          </div>
+
+          <div class="colorwrapper" id="color_c">
+            <div class="colorbox" id="colorbox"></div>
+            <div class="colortext">
+              <p class="hex">hex:<span class="js-color-hex"></span></p>
+              <p class="rgb">rgb:<span class="js-color-rgb"></span></p>
+              <p class="hsl">hsl:<span class="js-color-hsl"></span></p>
+            </div>
+          </div>
+
+          <div class="colorwrapper" id="color_d">
+            <div class="colorbox" id="colorbox"></div>
+            <div class="colortext">
+              <p class="hex">hex:<span class="js-color-hex"></span></p>
+              <p class="rgb">rgb:<span class="js-color-rgb"></span></p>
+              <p class="hsl">hsl:<span class="js-color-hsl"></span></p>
+            </div>
+          </div>
+
+          <div class="colorwrapper" id="color_e">
+            <div class="colorbox" id="colorbox"></div>
+            <div class="colortext">
+              <p class="hex">hex:<span class="js-color-hex"></span></p>
+              <p class="rgb">rgb:<span class="js-color-rgb"></span></p>
+              <p class="hsl">hsl:<span class="js-color-hsl"></span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
